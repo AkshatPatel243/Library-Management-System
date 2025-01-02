@@ -68,6 +68,16 @@ function returnBook(title) {
   console.log(`Book titled "${title}" not found in the library.`);
 }
 
+// ### To Add 5 New Books to the Library Array
+
+// for (let i = 0; i < 5; i++) {
+//   let title = prompt("Enter the title of the book:");
+//   let author = prompt("Enter the author of the book:");
+//   let isAvailable = prompt("Is the book available? (true/false)");
+
+//   library.books.push(title, author, isAvailable);
+// }
+
 // ### Check Library Open Status Function
 function isLibraryOpen(time) {
   if (time >= 9 && time <= 20) {
